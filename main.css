@@ -1,0 +1,57 @@
+.rebut {
+    width: 100%;
+}
+
+#reset {
+    padding: 2%;
+}
+
+
+
+#blue {
+    width: 45.5%;
+    height: 1000px;   
+}
+
+#red {
+    width: 45.5%;
+    height: 1000px;
+}
+
+div .score {
+    display: inline;
+    padding: 2%;
+}
+
+#blueP {
+    padding-top: 300px;
+    font-size: 200px;
+}
+
+#redP {
+    padding-top: 300px;
+    font-size: 200px;
+}
+
+
+
+.sub {
+    display: inline;
+    padding: 1%;;
+}
+
+#-B {
+    width: 45.5%;
+}
+
+#-R {
+    width: 45.5%;
+}
+
+#rblue {
+    padding-right: 3%;
+}
+
+.subdiv {
+    padding-top: 10px;
+}
