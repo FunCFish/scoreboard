@@ -1,57 +1,114 @@
 .rebut {
-    width: 100%;
+  width: 100%;
 }
 
 #reset {
-    padding: 2%;
+  padding: 2%;
 }
 
-
-
 #blue {
-    width: 45.5%;
-    height: 1000px;   
+  width: 45.5%;
+  height: 1000px;
 }
 
 #red {
-    width: 45.5%;
-    height: 1000px;
+  width: 45.5%;
+  height: 1000px;
 }
 
 div .score {
-    display: inline;
-    padding: 2%;
+  display: inline;
+  padding: 2%;
 }
 
 #blueP {
-    padding-top: 300px;
-    font-size: 200px;
+  padding-top: 300px;
+  font-size: 200px;
 }
 
 #redP {
-    padding-top: 300px;
-    font-size: 200px;
+  padding-top: 300px;
+  font-size: 200px;
 }
 
-
-
 .sub {
-    display: inline;
-    padding: 1%;;
+  display: inline;
+  padding: 1%;
 }
 
 #-B {
-    width: 45.5%;
+  width: 45.5%;
 }
 
 #-R {
-    width: 45.5%;
+  width: 45.5%;
 }
 
 #rblue {
-    padding-right: 3%;
+  padding-right: 3%;
 }
 
 .subdiv {
-    padding-top: 10px;
+  padding-top: 10px;
+}
+
+.colordiv {
+  padding-top: 15px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.color {
+  display: inline-block;
+  width: 19.68%;
+  padding-bottom: 5px;
+}
+
+.col-1 .btn {
+  width: 100%;
+}
+
+#purple {
+  background-color: purple;
+  border-color: purple;
+}
+
+#pink {
+  background-color: hotpink;
+  border-color: hotpink;
+}
+
+#orange {
+  background-color: darkorange;
+  border-color: darkorange;
+}
+
+#lime {
+  background-color: lime;
+  border-color: lime;
+  color: black;
+}
+
+.teamColor .btn {
+  display: inline-block;
+  width: 15%;
+}
+
+.teamColor {
+  padding-top: 15px;
+  padding-left: 18.5%;
+}
+
+.inline {
+  display: inline;
+}
+
+#team1 {
+  padding-right: 46%;
+}
+
+.row {
+  width: 121.1%;
+  padding-left: 1%;
+  padding-right: 2%;
 }

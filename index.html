@@ -1,45 +1,96 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Scoreboard</title>
-        <link href="main.css" rel="stylesheet"/>
-        <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Bootstrap demo</title>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-     <script
-     src="https://code.jquery.com/jquery-3.6.2.min.js"
-     integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
-     crossorigin="anonymous"></script>
-    </head>
+  <head>
+    <title>Scoreboard</title>
+    <link href="main.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.min.js"
+      integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-    <body>
-        <div id="reset"><a class="btn btn-secondary rebut">Reset Game</a></div>
-        
-        <div class="score">
-            <div class="score">
-                <a class="btn btn-primary" id="blue">
-                   <div id="blueP"></div>
-                </a>
-            </div>
-            <div class="score">
-                <a class="btn btn-danger" id="red">
-                    <p id="redP"></p>
-                </a>
-            </div>
+  <body>
+    <div id="reset"><a class="btn btn-secondary rebut">Reset Game</a></div>
 
-            <div class="subdiv">
-                <div class="sub">
-                    <div class="sub" id="rblue"><a class="btn btn-warning" id="-B">-1</a></div>
-                    <div class="sub" id="rred"><a class="btn btn-warning" id="-R">-1</a></div>
-                </div>
-            </div>
+    <div class="score">
+      <div class="score">
+        <a class="btn btn-primary" id="blue">
+          <div id="blueP"></div>
+        </a>
+      </div>
+      <div class="score">
+        <a class="btn btn-danger" id="red">
+          <p id="redP"></p>
+        </a>
+      </div>
+
+      <div class="subdiv">
+        <div class="sub">
+          <div class="sub" id="rblue">
+            <a class="btn btn-warning" id="-B">-1</a>
+          </div>
+          <div class="sub" id="rred">
+            <a class="btn btn-warning" id="-R">-1</a>
+          </div>
         </div>
-        
-        <a href="test.html">test</a>
+      </div>
+    </div>
 
+    <div class="teamColor">
+      <div class="inline" id="team1">
+        <a class="btn btn-secondary" id="team1b">Team 1 color</a>
+      </div>
+      <div class="inline" id="team2">
+        <a class="btn btn-secondary" id="team2b">Team 2 color</a>
+      </div>
+    </div>
 
-        <script src="index.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    </body>
+    <div class="colordiv" id="colors">
+      <div class="row">
+        <div class="col-1">
+          <a class="btn btn-primary" id="purple">Purple</a>
+        </div>
+        <div class="col-1">
+          <a class="btn btn-primary" id="pink">Pink</a>
+        </div>
+        <div class="col-1"><a class="btn btn-danger" id="cred">Red</a></div>
+        <div class="col-1">
+          <a class="btn btn-primary" id="orange">Orange</a>
+        </div>
+        <div class="col-1">
+          <a class="btn btn-warning" id="yellow">Yellow</a>
+        </div>
+        <div class="col-1">
+          <a class="btn btn-primary" id="lime">Lime</a>
+        </div>
+        <div class="col-1">
+          <a class="btn btn-primary" id="cblue">Blue</a>
+        </div>
+        <div class="col-1">
+          <a class="btn btn-success" id="green">Green</a>
+        </div>
+        <div class="col-1">
+          <a class="btn btn-secondary" id="gray">Gray</a>
+        </div>
+        <div class="col-1"><a class="btn btn-dark" id="dark">Black</a></div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
