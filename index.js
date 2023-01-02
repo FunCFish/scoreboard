@@ -39,6 +39,7 @@ $("#-B").click(function () {
     scoreB = 0;
   }
   document.getElementById("blueP").innerHTML = scoreB;
+  save();
 });
 
 $("#-R").click(function () {
@@ -48,12 +49,37 @@ $("#-R").click(function () {
     scoreR = 0;
   }
   document.getElementById("redP").innerHTML = scoreR;
+  save();
+});
+
+document.getElementById("blue").addEventListener("mouseup", (e) => {
+  if (e.button == 2) {
+    scoreB = scoreB - 1;
+    document.getElementById("blueP").innerHTML = scoreB;
+    if (scoreB < 0) {
+      scoreB = 0;
+    }
+    document.getElementById("blueP").innerHTML = scoreB;
+    save();
+  }
+});
+
+document.getElementById("red").addEventListener("mouseup", (e) => {
+  if (e.button == 2) {
+    scoreR = scoreR - 1;
+    document.getElementById("redP").innerHTML = scoreR;
+    if (scoreR < 0) {
+      scoreR = 0;
+    }
+    document.getElementById("redP").innerHTML = scoreR;
+    save();
+  }
 });
 
 //full screen
 
 $("#fullScreen").click(function () {
-  console.log("fullscreen");
+  document.getElementById("fullScreen");
 });
 
 //color buttons
