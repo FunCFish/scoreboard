@@ -1,0 +1,31 @@
+#blue {
+  display: inline-block;
+  margin-right: -4.5px;
+  width: 50%;
+  font-size: 350px;
+  text-align: center;
+  height: 100vh;
+  border-radius: 0px;
+}
+
+#red {
+  display: inline-block;
+  width: 50%;
+  font-size: 350px;
+  text-align: center;
+  height: 100vh;
+  border-radius: 0px;
+}
+
+.btn {
+  width: 100%;
+  border-radius: 0px;
+}
+
+#blueP {
+  padding-top: 25vh;
+}
+
+#redP {
+  padding-top: 25vh;
+}

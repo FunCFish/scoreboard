@@ -3,7 +3,7 @@
 }
 
 #reset {
-  padding: 2%;
+  padding: 1% 2.5% 2% 2%;
 }
 
 #blue {
@@ -68,6 +68,11 @@ div .score {
   width: 100%;
 }
 
+.row {
+  padding-left: 1%;
+  padding-right: 2%;
+}
+
 #purple {
   background-color: purple;
   border-color: purple;
@@ -89,6 +94,17 @@ div .score {
   color: black;
 }
 
+#brown {
+  background-color: brown;
+  border-color: brown;
+}
+
+#custom {
+  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo);
+  border: transparent;
+  color: black;
+}
+
 .teamColor .btn {
   display: inline-block;
   width: 15%;
@@ -104,11 +120,17 @@ div .score {
 }
 
 #team1 {
-  padding-right: 46%;
+  padding-right: 15%;
 }
 
-.row {
-  width: 121.1%;
-  padding-left: 1%;
-  padding-right: 2%;
+#resetTeamColor {
+  padding-right: 16%;
+}
+
+#fullScreen {
+  width: 50px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: 2%;
 }
